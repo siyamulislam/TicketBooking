@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">TicketBooking</string>
+
+    <string-array name="from">
+        <item>Dhaka (Gabtoli)</item>
+    </string-array>
+
+    <string-array name="Select_district">
+        <item>Select Destination</item>
+        <item>Bogra</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Dinajpur</item>
+
+    </string-array>
+
+
+    <string-array name="Select_class">
+        <item>Select Class</item>
+        <item>AC</item>
+        <item>Non-AC</item>
+
+    </string-array>
+
+    <string-array name="Select_quantity">
+        <item>Select Quantity</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="Select_bus">
+        <item>Select Bus</item>
+        <item>S.R Travels (Pvt) Ltd</item>
+        <item>Shyamoli Paribahan</item>
+        <item>Manik Express</item>
+        <item>Hanif Enterprise</item>
+        <item>Alhamra Paribahan</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bagroundmain"
+    tools:context=".Tickets">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="From :"
+            android:textColor="#000000"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:layout_margin="4dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:entries="@array/from"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="     To :"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:layout_margin="4dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/districtsp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="         Date :"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:hint=" dd/mm/yyyy"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:id="@+id/dateTv"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text=" Bus Type :"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:id="@+id/classsp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="Choice Bus :"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            />
+
+        <Spinner
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:id="@+id/bussp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="        Seats :"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            />
+
+        <Spinner
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:id="@+id/quantitysp"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="      Phone :"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:hint=" Contact Number"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:inputType="number"
+            android:id="@+id/numberEt"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/priceDamu"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:text=" Price(per) : click"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        />
+        <TextView
+            android:id="@+id/dstD"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text=" Distance : click"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:id="@+id/timD"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text=" Time :"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/orderBtn"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:text="Place Order"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:background="@drawable/button_shape_btn"
+        android:layout_marginTop="70dp"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>
